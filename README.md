@@ -1,7 +1,6 @@
 # q-and-a
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a web app which allows users to input questions of which will be displayed and answered. The app is meant to be a platform for questions that could be FAQ's or any other set of questions.
 
 ## Prerequisites
 
@@ -39,7 +38,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+To view the app, click [here]().
 
 ## Further Reading / Useful Links
 
@@ -48,3 +47,6 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+WillisCode | [Moringa School](http://moringaschool.com/)

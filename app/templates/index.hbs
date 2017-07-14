@@ -1,3 +1,10 @@
 <div class="row">
-    
+    <div class="col-md-8 col-md-offset-2">
+        <ul>
+            {{#each model as |question|}}
+                {{question-tile question=question edit="edit"}}
+            {{/each}}
+        </ul>
+    </div>
 </div>
+{{new-question saveQuestion="saveQuestion"}}

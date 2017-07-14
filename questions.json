@@ -1,0 +1,11 @@
+{
+    "questions": [{
+        "author": "Anonymous",
+        "asked": "What does the fox say?",
+        "notes": "I have been wondering for a while"
+    }],
+    "answers": [{
+        "author": "Troll",
+        "answer": "Ring ding ding ding"
+    }]
+}

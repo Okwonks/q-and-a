@@ -24,7 +24,7 @@ module.exports = function(environment) {
       projectId: "ask-us-2ca98",
       storageBucket: "ask-us-2ca98.appspot.com",
       messagingSenderId: "481541617253"
-  }
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance

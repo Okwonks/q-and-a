@@ -1,0 +1,23 @@
+body {
+    font-family: 'Bellefair', serif;
+}
+
+img {
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#ans-author {
+    font-family: 'Lobster',cursive;
+}
+
+#answer-box {
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+}
+
+#answer-col {
+    padding-left: 5%; /*this moves the col-md-5 to the right */
+}

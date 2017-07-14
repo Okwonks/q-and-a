@@ -1,12 +1,18 @@
-{{yield}}
-{{!--this tile holds the details of questions and is loaded into the question dynamic route  --}}
-<h4>Notes on the question</h4>
-<p>{{question.notes}}</p>
-<p><em>~{{question.author}}</em></p>
+{{yield}} {{!--this tile holds the details of questions and is loaded into the question dynamic route --}}
+<div class="row">
+    <div class="col-md-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Notes on the question:</h4>
+            </div>
+            <div class="panel-body">
+                <p>{{question.notes}}</p>
+                <p><em>~{{question.author}}</em></p>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="btn btn-danger btn-xs" {{action 'delete' question}}>Erase Question</button>
 
 <h3>Answers</h3>
-{{#each model.answer as |answer|}}
-    {{answer-tile answer=answer}}
-{{/each}}
-
-<button class="btn btn-danger btn-xs">Erase Question</button>
+<hr> {{#each question.answers as |answer|}} {{answer-tile answer=answer}} {{/each}}

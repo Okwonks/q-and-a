@@ -1,4 +1,4 @@
 <li>
-    {{question.asked}}
+    <h3>{{#link-to 'question' question.id}}{{question.asked}}{{/link-to}}</h3>
 </li>
-{{edit-question question=question edit="edit"}}
+{{!-- {{edit-question question=question edit="edit"}} --}}

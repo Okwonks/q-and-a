@@ -1,0 +1,21 @@
+{
+  "name": "q-and-a",
+  "description": "Small description for q-and-a goes here",
+  "main": "",
+  "authors": [
+    "Okwonks <albertoketch@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7"
+  }
+}

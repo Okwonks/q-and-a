@@ -5,7 +5,7 @@
 <p><em>~{{question.author}}</em></p>
 
 <h3>Answers</h3>
-{{#each question.answer as |answer|}}
+{{#each model.answer as |answer|}}
     {{answer-tile answer=answer}}
 {{/each}}
 

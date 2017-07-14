@@ -4,4 +4,9 @@
 <p>{{question.notes}}</p>
 <p><em>~{{question.author}}</em></p>
 
+<h3>Answers</h3>
+{{#each question.answer as |answer|}}
+    {{answer-tile answer=answer}}
+{{/each}}
+
 <button class="btn btn-danger btn-xs">Erase Question</button>

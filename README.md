@@ -38,7 +38,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-To view the app, click [here]().
+To view the app, click [here](http://leutenant-ignatius-48614.netlify.com/).
 
 ## Further Reading / Useful Links
 

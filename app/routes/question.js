@@ -19,7 +19,7 @@ export default Ember.Route.extend({
             var question = params.question;
             question.get('answers').addObject(newAnswer);
             newAnswer.save().then(function() {
-                return question.save();
+                return question.save(); //this has a promise to ensure answers are saved to the specific question
             });
             this.transitionTo('question', question);
         },

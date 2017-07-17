@@ -14,6 +14,9 @@ export default Ember.Component.extend({
             };
             this.set('addNewAnswer', false);
             this.sendAction('saveAnswer', params);
+        },
+        cancelAnswerForm() {
+            this.set('addNewAnswer', false);//This will reomove the answer form incase a user doesn't want to answer.
         }
     }
 });

@@ -4,8 +4,10 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
-    'ember-cli-bootswatch': 'paper'
+    'ember-cli-bootswatch': 'paper' //using bootstrap in ember is done from here.
   });
+
+  // app.import('bower_component/moment/moment.js');
 
   // Use `app.import` to add additional libraries to the generated
   // output files.

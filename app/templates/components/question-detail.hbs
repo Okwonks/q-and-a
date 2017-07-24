@@ -9,10 +9,14 @@
                 <p>{{question.notes}}</p>
                 <p><em>~{{question.author}}</em></p>
             </div>
+            <p></p>
         </div>
     </div>
 </div>
 <button class="btn btn-danger btn-xs" {{action 'delete' question}}>Erase Question</button>
 
-<h3>Answers</h3>
-<hr> {{#each question.answers as |answer|}} {{answer-tile answer=answer}} {{/each}}
+<h3 data-spy="affix">Answers</h3>
+<hr>
+{{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer" answerUp="answerUp" answerDown="answerDown"}}
+{{/each}}

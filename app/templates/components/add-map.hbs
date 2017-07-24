@@ -1,0 +1,18 @@
+{{#if addMapForm}}
+<h3>This Weeks Map</h3>
+<div>
+    <form>
+         <div class="form-group">
+            {{input class="form-control" value=latitude id="latitude" placeholder="latitude co-ordinates"}}
+        </div>
+        <div class="form-group">
+            {{input class="form-control" value=longitude id="longitude" placeholder="longitude co-ordinates"}}
+        </div> 
+        
+        <button type="button" class="btn btn-success btn-sm" {{action 'saveMap'}}>Save Map</button>
+        <button type="button" class="btn btn-default btn-sm" {{action 'cancleForm'}}>Cancel</button>
+    </form>
+</div>
+{{else}}
+<button type="button" class="btn btn-info" {{action 'mapFormShow'}}>New Map</button>
+{{/if}}

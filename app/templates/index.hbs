@@ -1,14 +1,20 @@
-<div class="page-header">
+<div class="page-header" data-spy="affix">
     <h1>You Ask <small>They Answer</small></h1>
 </div>
 
 <div class="row">
-    <div class="col-md-8 col-md-offset-2 well" id="answer-box">
+    <div class="col-md-6 col-md-offset-3 well" id="answer-box">
         <ol>
-            {{#each model.questions as |question|}}
-                {{question-tile question=question}}
+            {{#each model.questions as |question|}} 
+                {{question-tile question=question}} 
             {{/each}}
         </ol>
+        {{#link-to 'admin'}}<span class="label label-default">Admin</span>{{/link-to}}
     </div>
+    <div class="col-md-3 pull-right" data-spy="affix">
+        {{new-question saveQuestion="saveQuestion"}}
+    </div>
+     {{!-- <div class="col-md-3 pull-left" data-spy="affix">
+        {{google-map question=question}}
+    </div>  --}}
 </div>
-{{new-question saveQuestion="saveQuestion"}}

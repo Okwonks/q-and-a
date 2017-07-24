@@ -6,6 +6,12 @@
     }],
     "answers": [{
         "author": "Troll",
-        "answered": "Ring ding ding ding"
+        "answered": "Ring ding ding ding",
+        "upvote": 0,
+        "downvote": 0
+    }],
+    "locations": [{
+        "longitude": 0,
+        "latitude": 0
     }]
 }
